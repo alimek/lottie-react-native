@@ -1,12 +1,13 @@
 {
   "name": "lottie-react-native",
-  "version": "2.6.0",
+  "version": "2.6.3",
   "description": "React Native bindings for Lottie",
   "main": "lib/index.js",
   "types": "src/js/index.d.ts",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "prepare": "npm run build",
+    "install": "npm run prepare",
     "build": "babel src/js --out-dir lib",
     "watch": "babel src/js --out-dir lib --watch",
     "build:pods": "cd example/ios; bundle exec pod install; cd -",
