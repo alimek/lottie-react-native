@@ -1,3 +1,16 @@
+## 3.0.1 (Jun 28, 2019)
+
+- Resolving UIViewManager deprecation warning
+
+## 3.0.0 (Jun 1, 2019)
+
+- React Native lottie upgrade (iOS)
+
+## 2.6.1 (March 29, 2019)
+
+- Lock lottie-ios on version 2.5.0
+- Enable RN projects to define the Android AppCompat Library version
+
 ## 2.6.0 (March 18, 2019)
 
 - Add Android app compatability support for RN 0.59 on Android (#455)
